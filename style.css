@@ -1,3 +1,10 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 #my-name{
     font-family: Impact;
 }
@@ -5,4 +12,39 @@
 #my-description{
     font-family: Impact;
     font-style: italic;
+    color: #7C7A7A;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+p{
+    color: #7C7A7A;
+}
+
+h1{
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #FF5D73;
+}
+
+h2{
+    color: #FF5D73;
+}
+
+ul{
+    color: #494949;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+#t2{
+    margin-inline: auto;
 }
