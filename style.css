@@ -8,7 +8,7 @@
     background-color: #fff;
     padding: 1px 25px;
     border-radius: 30px;
-    box-shadow: 10px 10px 10px #00000049;
+    box-shadow: 0px 0px 50px #000000ce;
 }
 
 #my-name{
@@ -66,7 +66,7 @@ hr{
 
 #jennas{
     border-radius: 100%;
-    border: 3px solid #FF5D73;
+    border: 3px solid #ff43b7;
     margin-bottom: 20px;
 }
 
