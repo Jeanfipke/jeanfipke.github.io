@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 #index{
     text-align: center;
 }
@@ -16,17 +18,14 @@
     margin: 50px 15px;
 }
 
-#my-name{
-    font-family: Impact;
-}
-
 #my-description{
-    font-family: Impact;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     color: #7C7A7A;
 }
 
 body{
+    font-family: 'Poppins', sans-serif;
     max-width: 500px;
     margin-inline: auto;
     text-align: center;
@@ -46,7 +45,7 @@ h1{
 }
 
 h2{
-    max-width: 300px;
+    max-width: 350px;
     color: #fff;
     background-color: #ff8eb3;
     margin-inline: auto; 
