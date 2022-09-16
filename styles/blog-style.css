@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 100px;
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 20px;
+
+    background-color: #35363a;
+    color: #fff;
+}
+
+.content{
+    max-width: 600px;
+    margin-inline: auto;
+    padding: 8px 48px 24px;
+}

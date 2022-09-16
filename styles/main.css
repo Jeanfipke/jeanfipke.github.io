@@ -91,17 +91,18 @@ hr{
 
 }
 
-a{
+a{  
+    color: #ff85a0;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:visited{
-    color: rgb(255, 79, 117);
+    color: #a5223f;
 }
 
 a:active{
-    color: #c43548;
+    color: #831927;
 }
 
 img{
