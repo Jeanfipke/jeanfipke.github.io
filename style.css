@@ -16,9 +16,10 @@
 }
 
 body{
+    max-width: 500px;
+    margin-inline: auto;
     text-align: center;
-    width: 100%;
-    background-color: #ffffff;
+    background-image: url(pinkBackground.jpg);
 }
 
 p{
@@ -26,13 +27,15 @@ p{
 }
 
 h1{
-    padding: 10px 5px;
+    max-width: 500px;
     color: #fff;
     background-color: #FF5D73;
+    margin-inline: auto; 
 }
 
 h2{
     color: #FF5D73;
+
 }
 
 ul{
@@ -43,8 +46,45 @@ li{
     list-style: none;
 }
 
+strong{
+    color: #494949;
+}
 
+hr{
+    max-width: 500px;
+}
+
+#jennas{
+    border-radius: 100%;
+    border: 3px solid #FF5D73;
+    margin-bottom: 20px;
+}
 
 #t2{
     margin-inline: auto;
+}
+
+.secret{
+    max-width: 150px;
+    opacity: 0;
+    margin-inline: auto;
+    
+}
+
+.secret:hover{
+    opacity: 100;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #000;
+}
+
+a:active{
+    color: #FF5D73;
 }
