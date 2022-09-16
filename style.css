@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#background{
+    background-color: rgba(255, 101, 126, 0.548);
+    padding: 5px;
+    border-radius: 15px;
+}
 
 #my-name{
     font-family: Impact;
@@ -12,7 +17,7 @@
 #my-description{
     font-family: Impact;
     font-style: italic;
-    color: #7C7A7A;
+    color: #ffffff;
 }
 
 body{
@@ -23,7 +28,7 @@ body{
 }
 
 p{
-    color: #7C7A7A;
+    color: #ffffff;
 }
 
 h1{
@@ -34,12 +39,12 @@ h1{
 }
 
 h2{
-    color: #FF5D73;
+    color: #ffffff;
 
 }
 
 ul{
-    color: #494949;
+    color: #ffffff;
 }
 
 li{
@@ -47,7 +52,7 @@ li{
 }
 
 strong{
-    color: #494949;
+    color: #ffffff;
 }
 
 hr{
@@ -82,9 +87,9 @@ a{
 }
 
 a:visited{
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 a:active{
-    color: #FF5D73;
+    color: #69113a;
 }
