@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+#index{
+    text-align: center;
+}
+
 #background{
     background-color: #fff;
     padding: 1px 30px;
     border-radius: 30px;
     box-shadow: 0px 0px 50px #000000ce;
+    margin: 50px 15px;
 }
 
 #my-name{
@@ -54,6 +59,7 @@ ul{
 
 li{
     list-style: none;
+    text-align: justify;
 }
 
 strong{
@@ -97,4 +103,8 @@ a:visited{
 
 a:active{
     color: #c43548;
+}
+
+img{
+    width: 100%;
 }
