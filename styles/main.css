@@ -1,3 +1,4 @@
+/* Setup Inicial */
 
 *{
     padding: 0;
@@ -6,8 +7,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-#index{
+/* Body Geral/ Background */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 500px;
+    margin-inline: auto;
     text-align: center;
+    background-image: url(/images/pinkBackground.jpg);
 }
 
 #background{
@@ -18,23 +25,7 @@
     margin: 50px 15px;
 }
 
-#my-description{
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    color: #7C7A7A;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-    max-width: 500px;
-    margin-inline: auto;
-    text-align: center;
-    background-image: url(/images/pinkBackground.jpg);
-}
-
-p{
-    color: #7C7A7A;
-}
+/* Títulos */
 
 h1{
     max-width: 500px;
@@ -44,6 +35,14 @@ h1{
     border-radius: 30px;
 }
 
+/* Ìndice */
+
+#index{
+    text-align: center;
+}
+
+/* Subtítulos */
+
 h2{
     max-width: 350px;
     color: #fff;
@@ -51,6 +50,22 @@ h2{
     margin-inline: auto; 
     border-radius: 30px;
 }
+
+/* Textos */
+
+p{
+    color: #7C7A7A;
+}
+
+/* Descrição */
+
+#my-description{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #7C7A7A;
+}
+
+/* Listas */
 
 ul{
     color: #494949;
@@ -69,27 +84,21 @@ hr{
     max-width: 500px;
 }
 
+/* Foto "eu" */
+
 #jennas{
     border-radius: 100%;
     border: 3px solid #ff43b7;
     margin-bottom: 20px;
 }
 
-#t2{
-    margin-inline: auto;
+
+
+img{
+    width: 100%;
 }
 
-.secret{
-    max-width: 150px;
-    opacity: 0;
-    margin-inline: auto;
-    
-}
-
-.secret:hover{
-    opacity: 100;
-
-}
+/* Links */
 
 a{  
     color: #ff85a0;
@@ -105,6 +114,14 @@ a:active{
     color: #831927;
 }
 
-img{
-    width: 100%;
+/* Secret */
+
+.secret:hover{
+    opacity: 100;
+    }
+
+.secret{
+    max-width: 150px;
+    opacity: 0;
+    margin-inline: auto;  
 }
