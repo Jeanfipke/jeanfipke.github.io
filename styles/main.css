@@ -29,7 +29,7 @@ body{
     max-width: 500px;
     margin-inline: auto;
     text-align: center;
-    background-image: url(pinkBackground.jpg);
+    background-image: url(/images/pinkBackground.jpg);
 }
 
 p{
