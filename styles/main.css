@@ -22,11 +22,25 @@ body {
   padding: 1px 30px;
   border-radius: 30px;
   box-shadow: 0px 0px 50px #000000ce;
-  margin: 50px 15px;
+  margin: 100px 15px;
 }
 
 /* Títulos */
 
+header { 
+  width: 500px;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+  background-color: #f34e85;
+  border-radius: 0px 0px 20px 20px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+}
+  
 h1 {
   padding-block: 10px;
   max-width: 500px;
@@ -100,6 +114,15 @@ img {
 
 /* Links */
 
+.social-media {
+  width: 15%;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 a {
   color: #ff85a0;
   text-decoration: none;
@@ -114,6 +137,7 @@ a:active {
   color: #831927;
 }
 
+
 /* Secret */
 
 .secret:hover {
@@ -124,7 +148,7 @@ a:active {
   margin-inline: auto;
 
   position: fixed;
-  margin-top: 14px;
+  margin-top: 60px;
   top: 0;
 
   left: 50%;
@@ -134,7 +158,7 @@ a:active {
 
   width: 200px;
   height: 20px;
-  opacity: 5%;
+  opacity: 7%;
 }
 
 .secret a {
