@@ -5,9 +5,10 @@
 }
 
 #background{
-    background-color: rgba(255, 101, 126, 0.548);
-    padding: 5px;
-    border-radius: 15px;
+    background-color: #fff;
+    padding: 1px 25px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #00000049;
 }
 
 #my-name{
@@ -17,7 +18,7 @@
 #my-description{
     font-family: Impact;
     font-style: italic;
-    color: #ffffff;
+    color: #7C7A7A;
 }
 
 body{
@@ -28,23 +29,27 @@ body{
 }
 
 p{
-    color: #ffffff;
+    color: #7C7A7A;
 }
 
 h1{
     max-width: 500px;
     color: #fff;
-    background-color: #FF5D73;
+    background-color: #f34e85;
     margin-inline: auto; 
+    border-radius: 30px;
 }
 
 h2{
-    color: #ffffff;
-
+    max-width: 300px;
+    color: #fff;
+    background-color: #ff8eb3;
+    margin-inline: auto; 
+    border-radius: 30px;
 }
 
 ul{
-    color: #ffffff;
+    color: #494949;
 }
 
 li{
@@ -52,7 +57,7 @@ li{
 }
 
 strong{
-    color: #ffffff;
+    color: #494949;
 }
 
 hr{
@@ -87,9 +92,9 @@ a{
 }
 
 a:visited{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 79, 117);
 }
 
 a:active{
-    color: #69113a;
+    color: #c43548;
 }
